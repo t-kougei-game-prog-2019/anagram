@@ -12,7 +12,7 @@ namespace UnitTest
 		
 		TEST_METHOD(TestMethod1)
 		{
-			Assert::AreEqual(Anagram::is_anagram("ABc", "ABC"), true);
+			Assert::AreEqual(Anagram::is_anagram("ABC", "ABC"), true);
 		}
 
 	};
