@@ -9,7 +9,7 @@ Anagram::Anagram()
 
 Anagram::~Anagram()
 {
-	Assert::AreEqual(Anagram::is_anagram("A", "A"), false);
+	Assert::AreEqual(Anagram::is_anagram("A", "A"), true);
 }
 
 
