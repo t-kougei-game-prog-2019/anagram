@@ -4,10 +4,12 @@
 
 Anagram::Anagram()
 {
+	Assert::AreEqual(Anagram::is_anagram("A", "A"), true);
 }
 
 Anagram::~Anagram()
 {
+	Assert::AreEqual(Anagram::is_anagram("A", "A"), true);
 }
 
 
