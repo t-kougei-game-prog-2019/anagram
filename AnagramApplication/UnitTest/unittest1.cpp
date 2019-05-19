@@ -11,7 +11,7 @@ namespace UnitTest
 		
 		TEST_METHOD(TestMethod1)
 		{
-			// TODO: テスト コードをここに挿入します
+			Assert::AreEqual(Anagram::is_anagram("A", "A"), true);
 		}
 
 	};
