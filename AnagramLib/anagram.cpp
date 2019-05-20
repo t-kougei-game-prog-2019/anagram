@@ -24,7 +24,7 @@ bool Anagram::is_anagram(const char *str1, const char *str2)
 	for(int i = 0; i < str1num; i++){
 		for(int j = 0; j < copystr2num; j++){
 			if(str1[i] == copystr2[j]){
-				copystr2num = array_moveup(copystr2, j, copystr2num); //一致した要素を消して前に詰める
+				copystr2num += array_moveup(copystr2, j, copystr2num); //一致した要素を消して前に詰める
 				break;
 			}
 			if(j == str2num - 1){
