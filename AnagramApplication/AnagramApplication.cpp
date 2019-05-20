@@ -9,7 +9,8 @@ int main()
 	const char *str1 = "CAT";
 	const char *str2 = "A";
 
-//	bool b = Anagram::is_anagram(str1, str2);
+	bool b = Anagram::is_anagram(str1, str2);
+
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー

@@ -5,14 +5,14 @@
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest
-{		
-	TEST_CLASS(UnitTest1)
+{
+	TEST_CLASS(UnitTest3)
 	{
 	public:
-		
-		TEST_METHOD(TestMethod1)
+
+		TEST_METHOD(TestMethod3)
 		{
-			Assert::AreEqual(Anagram::is_anagram("ABC", "BAC"), true);
+			Assert::AreEqual(Anagram::is_anagram("asdfghjkl", "hfdsgjkla"), true);
 		}
 
 	};
